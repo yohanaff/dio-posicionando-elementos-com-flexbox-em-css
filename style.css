@@ -41,7 +41,7 @@ header {
 
 header .list-items {
     display: flex;
-    max-width: 260px;
+    max-width: 300px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +53,7 @@ header .list-items {
 
 header .menu {
     justify-content: space-between;
+    text-transform: uppercase;
 }
 
 .apresentacao {
@@ -82,6 +83,7 @@ header .menu {
     height: 50px;
     line-height: 50px;
     margin: 10px 0;
+    text-transform: uppercase;
 }
 
 #quem-somos {
@@ -189,6 +191,7 @@ header .menu {
     margin-right: 20px;
     padding: 10px;
     max-width: 240px;
+    background-color: rgb(208, 187, 170, 0.5);
 }
 
 .item-plano .button {
