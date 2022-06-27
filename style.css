@@ -14,8 +14,98 @@ ul li a {
     text-decoration: none;
 }
 
+div img {
+    display: block;
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     max-width: 992px;
     margin: auto;
+    width: 100%;
+}
+
+header {
+    background-color: #6b482c;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+header .list-items {
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li a {
+    color: #ffffff;
+}
+
+header .menu {
+    justify-content: space-between;
+}
+
+.apresentacao {
+    border: 2px solid red;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao {
+    border: 2px solid red;
+    min-height: 200px;
+}
+
+.texto-apresentacao h1 {
+    color: #6b482c;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao a {
+    background-color: #6b482c;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    border: 2px solid red;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0;
+}
+
+#quem-somos {
+    border: 2px solid red;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2 {
+    font-size: 32px;
+    color: #6b482c;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #6b482c;
+    position: relative;
+}
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
 }
